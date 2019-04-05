@@ -505,10 +505,10 @@
 <property name="Type" value="Hero Ally" />
 <property name="Endurance" value="" />
 <property name="Text" value="(Once per game, if your MP is Kid Trunks, you may play this card from your hand as an action to end combat.)  CONTINUOUS POWER: If your MP is Kid Trunks, your attacks deal +1 life card of damage." />
-<property name="Traits" value="" />
+<property name="Traits" value="Earthling, Saiyan" />
 <property name="Limit per Deck" value="" />
 <property name="PUR" value="1" />
-<property name="Power Rating" value="" />
+<property name="Power Rating" value="0; 150; 250; 500; 1000; 1500; 5000; 8000; 10000; 20000; 50000" />
 <property name="Rarity" value="Uncommon" />
 <property name="Card Level" value="" />
 </card>
@@ -518,10 +518,10 @@
 <property name="Type" value="Hero Ally" />
 <property name="Endurance" value="" />
 <property name="Text" value="(If your MP is Goten, you may use this Power regardless of your MP's power stage.  INSTANT POWER: Use when entering combat.  Draw a card." />
-<property name="Traits" value="" />
+<property name="Traits" value="Earthling, Saiyan" />
 <property name="Limit per Deck" value="" />
 <property name="PUR" value="1" />
-<property name="Power Rating" value="" />
+<property name="Power Rating" value="0; 150; 250; 500; 1000; 2500; 5000; 7000; 10000; 30000; 60000" />
 <property name="Rarity" value="Uncommon" />
 <property name="Card Level" value="" />
 </card>
@@ -531,10 +531,10 @@
 <property name="Type" value="Hero Ally" />
 <property name="Endurance" value="" />
 <property name="Text" value="(If your MP has EARTHLING, once per combat you may play this card from your hand as an action to gain 5 stages and draw a card.  CONTINUOUS POWER: If your MP has Earthling and 2 or less Traits, your opponent's attacks deal -2 stages of damage." />
-<property name="Traits" value="" />
+<property name="Traits" value="Earthling" />
 <property name="Limit per Deck" value="" />
 <property name="PUR" value="1" />
-<property name="Power Rating" value="" />
+<property name="Power Rating" value="0; 200; 600; 1000; 2000; 3000; 5000; 10000; 50000; 80000; 150000" />
 <property name="Rarity" value="Uncommon" />
 <property name="Card Level" value="" />
 </card>
@@ -544,10 +544,10 @@
 <property name="Type" value="Hero/Villain Ally" />
 <property name="Endurance" value="" />
 <property name="Text" value="(Once per turn when this Ally enters play, you may Rejuvenate a Setup or Drill from your discard pile.)  CONTINUOUS POWER: After a player discards a card from their hand by a card effect, you may Rejuvenate 1.  (Created by Tommy Andred, OP2 TOP Champion.)" />
-<property name="Traits" value="" />
+<property name="Traits" value="God" />
 <property name="Limit per Deck" value="" />
 <property name="PUR" value="1" />
-<property name="Power Rating" value="" />
+<property name="Power Rating" value="0; 199; 399; 599; 799; 999; 1199; 1399; 1599; 1799; 1999" />
 <property name="Rarity" value="Ultra Rare" />
 <property name="Card Level" value="" />
 </card>
@@ -557,10 +557,10 @@
 <property name="Type" value="Villain Ally" />
 <property name="Endurance" value="" />
 <property name="Text" value="(Bojack Only.  This card is considered Named and you may use these Powers regardless of your MP's power stage.)  INSTANT POWER: Use when this card is leaving play.  Banish it to use a critical damage effect.  POWER: Energy attack costing 2 stages.  DAMAGE: 2 life cards.  HIT: You may banish a Setup, Drill, Ally or attached card." />
-<property name="Traits" value="" />
+<property name="Traits" value="Alien" />
 <property name="Limit per Deck" value="" />
 <property name="PUR" value="3" />
-<property name="Power Rating" value="" />
+<property name="Power Rating" value="0; 100; 300; 600; 1000; 5000; 9000; 25000; 50000; 100000; 500000" />
 <property name="Rarity" value="Uncommon" />
 <property name="Card Level" value="" />
 </card>
@@ -570,10 +570,10 @@
 <property name="Type" value="Villain" />
 <property name="Endurance" value="" />
 <property name="Text" value="POWER: Energy attack costing 2 stages.  Raise or lower a player's anger 1 level.  DAMAGE: 4 life cards.  HIT: Search your Life Deck for a Named Ally or Named Setup and play it." />
-<property name="Traits" value="" />
+<property name="Traits" value="Alien" />
 <property name="Limit per Deck" value="" />
 <property name="PUR" value="3" />
-<property name="Power Rating" value="" />
+<property name="Power Rating" value="0; 1000; 2000; 5000; 7000; 10000; 30000; 50000; 100000; 300000; 800000" />
 <property name="Rarity" value="Starter" />
 <property name="Card Level" value="1" />
 </card>
@@ -583,10 +583,10 @@
 <property name="Type" value="Villain" />
 <property name="Endurance" value="" />
 <property name="Text" value="INSTANT POWER: Use at the end of combat.  Destroy an Ally or Setup you control to Rejuvenate 4.  POWER: Energy attack costing 2 stages.  You may destroy a Named Ally or Named Setup you control.  If you do, damage from this attack cannot be prevented.  DAMAGE: 5 life cards.  HIT: Raise your anger 1 level.  Lower your opponent's anger 1 level." />
-<property name="Traits" value="" />
+<property name="Traits" value="Alien" />
 <property name="Limit per Deck" value="" />
 <property name="PUR" value="4" />
-<property name="Power Rating" value="" />
+<property name="Power Rating" value="0; 1000; 3000; 10000; 30000; 70000; 100000; 200000; 600000; 1000000; 1250000" />
 <property name="Rarity" value="Starter" />
 <property name="Card Level" value="2" />
 </card>
@@ -596,10 +596,10 @@
 <property name="Type" value="Villain" />
 <property name="Endurance" value="" />
 <property name="Text" value="(You cannot win by MPPV if you advance a level with this card's effect.)  INSTANT POWER: Use when entering combat.  Banish 'Team Bojack' you own in play to advance your MP 1 level.  POWER: Energy attack costing 2 stages.  Lower your opponent's anger 2 levels.  DAMAGE: 5 life cards.  HIT: Search your banished Zone for a Named card and Rejuvenate it." />
-<property name="Traits" value="" />
+<property name="Traits" value="Alien" />
 <property name="Limit per Deck" value="" />
 <property name="PUR" value="4" />
-<property name="Power Rating" value="" />
+<property name="Power Rating" value="0; 5000; 10000; 25000; 50000; 90000; 150000; 400000; 700000; 1300000; 1700000" />
 <property name="Rarity" value="Starter" />
 <property name="Card Level" value="3" />
 </card>
@@ -609,10 +609,10 @@
 <property name="Type" value="Villain" />
 <property name="Endurance" value="" />
 <property name="Text" value="CONTINUOUS POWER: Your energy attacks deal +2 life cards of damage.  POWER: Energy attack.  While you control a Named Ally or Named Setup, damage from this attack cannot be prevented.  DAMAAGE: 4 life cards.  HIT: Search your Life Deck or discard pile for a Named Ally or Named Setup and play it." />
-<property name="Traits" value="" />
+<property name="Traits" value="Alien" />
 <property name="Limit per Deck" value="" />
 <property name="PUR" value="5" />
-<property name="Power Rating" value="" />
+<property name="Power Rating" value="0; 10000; 30000; 75000; 100000; 250000; 500000; 1000000; 1500000; 2000000; 2200000" />
 <property name="Rarity" value="Starter" />
 <property name="Card Level" value="4" />
 </card>
@@ -622,10 +622,10 @@
 <property name="Type" value="Villain" />
 <property name="Endurance" value="" />
 <property name="Text" value="INSTANT POWER: Use after you Rejuvenate a Styled card during combat.  Raise your anger 2 levels.  POWER: Energy attack costing 2 stages.  You may reveal 2 attack cards from your hand to Rejuvenate 1.  DAMAGE: 3 life cards.  HIT: Rejuvenate 1." />
-<property name="Traits" value="" />
+<property name="Traits" value="Saiyan" />
 <property name="Limit per Deck" value="" />
 <property name="PUR" value="3" />
-<property name="Power Rating" value="" />
+<property name="Power Rating" value="0; 500; 1350; 2500; 5000; 10000; 20000; 80000; 200000; 600000; 1000000" />
 <property name="Rarity" value="Starter" />
 <property name="Card Level" value="1" />
 </card>
@@ -635,10 +635,10 @@
 <property name="Type" value="Villain" />
 <property name="Endurance" value="" />
 <property name="Text" value="CONTINUOUS POWER: Whenever you Rejuvenate during combat, gain 2 stages.  POWER: Rejuvenate 2.  You may reveal 2 attack cards from your hand to search your Life Deck for a Styled Setup or Styled Drill and place it into play." />
-<property name="Traits" value="" />
+<property name="Traits" value="Saiyan" />
 <property name="Limit per Deck" value="" />
 <property name="PUR" value="4" />
-<property name="Power Rating" value="" />
+<property name="Power Rating" value="0; 1000; 5000; 15000; 25000; 40000; 50000; 100000; 400000; 800000; 1500000" />
 <property name="Rarity" value="Starter" />
 <property name="Card Level" value="2" />
 </card>
@@ -648,10 +648,10 @@
 <property name="Type" value="Villain" />
 <property name="Endurance" value="" />
 <property name="Text" value="CONTINUOUS POWER: Your attacks deal +2 life cards of damage.  INSTANT POWER: Use when you Rejuvenate during combat.  Use a critical damage effect.  POWER: Energy attack.  You may reveal 2 attacks from your hand to draw a card.  DAMAGE: 4 life cards." />
-<property name="Traits" value="" />
+<property name="Traits" value="Saiyan" />
 <property name="Limit per Deck" value="" />
 <property name="PUR" value="5" />
-<property name="Power Rating" value="" />
+<property name="Power Rating" value="0; 20000; 50000; 70000; 100000; 250000; 500000; 700000; 1200000; 1700000; 2200000" />
 <property name="Rarity" value="Starter" />
 <property name="Card Level" value="3" />
 </card>
@@ -661,10 +661,10 @@
 <property name="Type" value="Villain" />
 <property name="Endurance" value="" />
 <property name="Text" value="CONTINUOUS POWER: Your attacks deal +2 life cards of damage.  Whenever you Rejuvenate during combat, attacks if your next action this combat are considered to deal critical damage.  POWER: Energy attack.  Chosoe 3 cards in your discard pile and Rejuvenate them.  DAMAGE: 4 life cards.  HIT: Banish the top 10 cards of your opponent's discard pile." />
-<property name="Traits" value="" />
+<property name="Traits" value="Saiyan" />
 <property name="Limit per Deck" value="" />
 <property name="PUR" value="6" />
-<property name="Power Rating" value="" />
+<property name="Power Rating" value="0; 10000; 30000; 75000; 150000; 300000; 600000; 900000; 1200000; 2200000; 3200000" />
 <property name="Rarity" value="Starter" />
 <property name="Card Level" value="4" />
 </card>
@@ -674,10 +674,10 @@
 <property name="Type" value="Hero" />
 <property name="Endurance" value="" />
 <property name="Text" value="INSTANT POWER: Use when a 'when enter combat' effect isused.  Cancel that effect.  Banish the top card of your Life Deck.  POWER: Energy attack costing 1 stage.  DAMAGE: 2 life cards.  HIT: Search your discard pile or Banished Zone for a Named Card and Rejuvenate it." />
-<property name="Traits" value="" />
+<property name="Traits" value="Earthling" />
 <property name="Limit per Deck" value="" />
 <property name="PUR" value="3" />
-<property name="Power Rating" value="" />
+<property name="Power Rating" value="0; 1000; 2500; 5000; 10000; 15000; 30000; 60000; 90000; 120000; 150000" />
 <property name="Rarity" value="Starter" />
 <property name="Card Level" value="1" />
 </card>

@@ -13,7 +13,7 @@
 <property name="Rarity" value="Common" />
 <property name="Type" value="Ally" />
 <property name="PUR" value="1" />
-<property name="Power Rating" value="1,000; 900; 800; 700; 600; 500; 400; 300; 200; 100; 0" />
+<property name="Power Rating" value="0; 100; 200; 300; 400; 500; 600; 700; 800; 900; 1000" />
 <property name="Text" value="(Heroes only.)  [CONSTANT]:  At the start of your Rejuvenation Step, place the top card of your discard pile at the bottom of your Life Deck.  When this card is leaving play, search your Life Deck for a Dragon Ball and place it into play." />
 <property name="Limit per Deck" value="1" />
 </card>
@@ -24,7 +24,7 @@
 <property name="Rarity" value="Common" />
 <property name="Type" value="Ally" />
 <property name="PUR" value="1" />
-<property name="Power Rating" value="1,200; 1,100; 1,000; 900; 800; 700; 600; 500; 250; 100; 0" />
+<property name="Power Rating" value="0; 100; 250; 500; 600; 700; 800; 900; 1000; 1100; 1200" />
 <property name="Text" value="(Heroes only.)  [CONSTANT]:  Players cannot use card effects to search a player's Life Deck." />
 <property name="Limit per Deck" value="1" />
 </card>
@@ -35,7 +35,7 @@
 <property name="Rarity" value="Common" />
 <property name="Type" value="Ally" />
 <property name="PUR" value="1" />
-<property name="Power Rating" value="50; 45; 40; 35; 30; 25; 20; 15; 10; 5; 0" />
+<property name="Power Rating" value="0; 5; 10; 15; 20; 25; 30; 35; 40; 45; 50" />
 <property name="Text" value="(Heroes only.)  [CONSTANT]:  Dragon Balls lose all effects." />
 <property name="Limit per Deck" value="3" />
 </card>
@@ -46,7 +46,7 @@
 <property name="Rarity" value="Common" />
 <property name="Type" value="Ally" />
 <property name="PUR" value="1" />
-<property name="Power Rating" value="400; 350; 300; 250; 200; 150; 100; 50; 25; 10; 0" />
+<property name="Power Rating" value="0; 10; 25; 50; 100; 150; 200; 250; 300; 350; 400" />
 <property name="Text" value="(Heroes only.)  [CONSTANT]:  Players cannot use Setups unless they have performed an attack from their hand this turn." />
 <property name="Limit per Deck" value="1" />
 </card>
@@ -57,7 +57,7 @@
 <property name="Rarity" value="Common" />
 <property name="Type" value="Ally" />
 <property name="PUR" value="1" />
-<property name="Power Rating" value="10; 9; 8; 7; 6; 5; 4; 3; 2; 1; 0" />
+<property name="Power Rating" value="0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10" />
 <property name="Text" value="(Villains only.)  POWER:  Banish Dr. Wheelo to choose an Ally, Drill, or Setup in play and shuffle that card into its owner's Life Deck." />
 <property name="Limit per Deck" value="1" />
 </card>
@@ -68,7 +68,7 @@
 <property name="Rarity" value="Common" />
 <property name="Type" value="Ally" />
 <property name="PUR" value="1" />
-<property name="Power Rating" value="400; 375; 350; 325; 300; 275; 250; 225; 200; 175; 0" />
+<property name="Power Rating" value="0; 175; 200; 225; 250; 275; 300; 325; 350; 375; 400" />
 <property name="Text" value="(Villains only.)  [CONSTANT]:  The first attack each player performs during combat cannot have its damage modified." />
 <property name="Limit per Deck" value="1" />
 </card>
@@ -79,7 +79,7 @@
 <property name="Rarity" value="Common" />
 <property name="Type" value="Ally" />
 <property name="PUR" value="1" />
-<property name="Power Rating" value="125,000; 75,000; 25,000; 20,000; 15,000; 10,000; 5,000; 4,000; 3,000; 2,000; 0" />
+<property name="Power Rating" value="0; 2000; 3000; 4000; 5000; 10000; 15000; 20000; 25000; 75000; 125000" />
 <property name="Text" value="(Villains only.)  POWER:  Place the top 3 Styled Events in your discard pile at the bottom of your Life Deck.  Shuffle 'Lord Slug' into your Life Deck." />
 <property name="Limit per Deck" value="1" />
 </card>
@@ -90,7 +90,7 @@
 <property name="Rarity" value="Common" />
 <property name="Type" value="Ally" />
 <property name="PUR" value="1" />
-<property name="Power Rating" value="100,000; 50,000; 25,000; 20,000; 15,000; 10,000; 5,000; 3,000; 1,000; 500; 0" />
+<property name="Power Rating" value="0; 500; 1000; 3000; 5000; 10000; 15000; 20000; 25000; 50000; 100000" />
 <property name="Text" value="(Villains only.)  [CONSTANT]:  If your MP is a Saiyan, your Styled attacks deal +X stages of damage.  X = the number of Saiyans in play." />
 <property name="Limit per Deck" value="1" />
 </card>
@@ -1118,7 +1118,7 @@
 <property name="Rarity" value="Uncommon" />
 <property name="Type" value="Personality" />
 <property name="PUR" value="1" />
-<property name="Power Rating" value="10; 9; 8; 7; 6; 5; 4; 3; 2; 1; 0" />
+<property name="Power Rating" value="0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10" />
 <property name="Text" value="POWER:  Destroy the top card of your Life Deck to destroy the top 2 cards of your opponent's Life Deck.  Set your anger level to 3." />
 <property name="Limit per Deck" value="1" />
 </card>
@@ -1129,7 +1129,7 @@
 <property name="Rarity" value="Uncommon" />
 <property name="Type" value="Personality" />
 <property name="PUR" value="4" />
-<property name="Power Rating" value="1,000; 900; 800; 700; 600; 500; 400; 300; 200; 100; 0" />
+<property name="Power Rating" value="0; 100; 200; 300; 400; 500; 600; 700; 800; 900; 1000" />
 <property name="Text" value="[CONSTANT]:  Your attacks deal +2 life cards of damage.  Whenever you stop an attack, your opponent destroys the top card of his Life Deck." />
 <property name="Limit per Deck" value="1" />
 </card>
@@ -1140,7 +1140,7 @@
 <property name="Rarity" value="Uncommon" />
 <property name="Type" value="Personality" />
 <property name="PUR" value="4" />
-<property name="Power Rating" value="1,400; 1,350; 1,300; 1,250; 1,200; 1,150; 1,100; 1,000; 900; 800; 0" />
+<property name="Power Rating" value="0; 800; 900; 1000; 1100; 1150; 1200; 1250; 1300; 1350; 1400" />
 <property name="Text" value="[INSTANT] POWER:  Use after you perform a successful attack.  Destroy the top 2 cards of your opponent's Life Deck and Rejuveante 2.  [CONSTANT]:  Whenever one of your effects destroys cards from the top of your opponent's Life Deck, increase that amount by 1." />
 <property name="Limit per Deck" value="1" />
 </card>
@@ -1151,7 +1151,7 @@
 <property name="Rarity" value="Uncommon" />
 <property name="Type" value="Personality" />
 <property name="PUR" value="5" />
-<property name="Power Rating" value="2,600; 2,400; 2,200; 2,000; 1,800; 1,600; 1,400; 1,200; 1,000; 500, 0" />
+<property name="Power Rating" value="2600; 2400; 2200; 2000; 1800; 1600; 1400; 1200; 1000; 500, 0" />
 <property name="Text" value="[CONSTANT]:  Whenever one of your effects destroys cards from the top of your opponent's Life Deck, increase that amount by 2 and Rejuvenate 2." />
 <property name="Limit per Deck" value="1" />
 </card>
@@ -1162,7 +1162,7 @@
 <property name="Rarity" value="Uncommon" />
 <property name="Type" value="Personality" />
 <property name="PUR" value="3" />
-<property name="Power Rating" value="1,500; 1,300; 1,100; 900; 700; 500; 400; 300; 200; 100; 0" />
+<property name="Power Rating" value="0; 100; 200; 300; 400; 500; 700; 900; 1100; 1300; 1500" />
 <property name="Text" value="[CONSTANT]:  Your opponent's attacks deal -1 life card of damage.  You need 2 less anger to advance a personality level.  POWER:  Raise your anger 1 level." />
 <property name="Limit per Deck" value="1" />
 </card>
@@ -1173,7 +1173,7 @@
 <property name="Rarity" value="Uncommon" />
 <property name="Type" value="Personality" />
 <property name="PUR" value="4" />
-<property name="Power Rating" value="4,000; 3,500; 3,000; 2,500; 2,000; 1,500; 1,000; 750; 500; 250; 0" />
+<property name="Power Rating" value="0; 250; 500; 750; 1000; 1500; 2000; 2500; 3000; 3500; 4000" />
 <property name="Text" value="[CONSTANT]:  Your opponent's attacks deal -2 life cards of damage.  Whenever a Dragon Ball is revealed when taking damage, raise your anger 1 level." />
 <property name="Limit per Deck" value="1" />
 </card>
@@ -1184,7 +1184,7 @@
 <property name="Rarity" value="Uncommon" />
 <property name="Type" value="Personality" />
 <property name="PUR" value="5" />
-<property name="Power Rating" value="8,000; 7,000; 6,000; 5,000; 4,000; 3,000; 2,000; 1,000; 600; 300; 0" />
+<property name="Power Rating" value="0; 300; 600; 1000; 2000; 3000; 4000; 5000; 6000; 7000; 8000" />
 <property name="Text" value="[CONSTANT]:  Your opponent's attacks deal -2 life cards and -2 stages of damage.  Whenever you raise your anger, you may capture a Dragon Ball." />
 <property name="Limit per Deck" value="1" />
 </card>
@@ -1195,7 +1195,7 @@
 <property name="Rarity" value="Uncommon" />
 <property name="Type" value="Personality" />
 <property name="PUR" value="6" />
-<property name="Power Rating" value="25,000; 15,000; 10,000; 8,000; 6,000; 4,000; 2,000; 1,000; 500; 250; 0" />
+<property name="Power Rating" value="0; 250; 500; 1000; 2000; 4000; 6000; 8000; 10000; 15000; 25000" />
 <property name="Text" value="[CONSTANT]:  Your opponent's attacks deal +3 life cards of damage.  Your Dragon Balls cannot be captured.  Whenever your anger is lowered, you may capture a Dragon Ball." />
 <property name="Limit per Deck" value="1" />
 </card>
@@ -1206,7 +1206,7 @@
 <property name="Rarity" value="Uncommon" />
 <property name="Type" value="Personality" />
 <property name="PUR" value="3" />
-<property name="Power Rating" value="14,000; 12,000; 10,000; 8,000; 6,000; 4,000; 2,000; 1,000; 500; 250; 0" />
+<property name="Power Rating" value="0; 250; 500; 1000; 2000; 4000; 6000; 8000; 10000; 12000; 14000" />
 <property name="Text" value="[CONSTANT]:  Whenever a Dragon Ball enters play, raise your anger 1 level.  If you do not control a Dragon Ball at the end of combat, search your Life Deck for a Dragon Ball and place it into play." />
 <property name="Limit per Deck" value="1" />
 </card>
@@ -1217,7 +1217,7 @@
 <property name="Rarity" value="Uncommon" />
 <property name="Type" value="Personality" />
 <property name="PUR" value="4" />
-<property name="Power Rating" value="45,000; 40,000; 35,000; 30,000; 25,000; 20,000; 15,000; 10,000; 1,000; 500; 0" />
+<property name="Power Rating" value="0; 500; 1000; 10000; 15000; 20000; 25000; 30000; 35000; 40000; 45000" />
 <property name="Text" value="POWER:  Physical attack.  DAMAGE:  AT +3 stages.  HIT:  Rejuvenate 2." />
 <property name="Limit per Deck" value="1" />
 </card>
@@ -1228,7 +1228,7 @@
 <property name="Rarity" value="Uncommon" />
 <property name="Type" value="Personality" />
 <property name="PUR" value="5" />
-<property name="Power Rating" value="200,000; 150,000; 125,000; 100,000; 75,000; 50,000; 10,000; 1,000; 500; 250; 0" />
+<property name="Power Rating" value="0; 250; 500; 1000; 10000; 50000; 75000; 100000; 125000; 150000; 200000" />
 <property name="Text" value="[CONSTANT]:  Your attacks deal +2 stages of damage.  The first time during combat one of your effects shuffles or Rejuvenates cards from your discard pile into your Life Deck, double that amount." />
 <property name="Limit per Deck" value="1" />
 </card>
@@ -1239,7 +1239,7 @@
 <property name="Rarity" value="Uncommon" />
 <property name="Type" value="Personality" />
 <property name="PUR" value="6" />
-<property name="Power Rating" value="400,000; 350,000; 300,000; 250,000; 200,000; 150,000; 100,000; 50,000; 10,000; 1,000; 0" />
+<property name="Power Rating" value="0; 1000; 10000; 50000; 100000; 150000; 200000; 250000; 300000; 350000; 400000" />
 <property name="Text" value="(You cannot win by MPPV)  [INSTANT] POWER:  Use when entering combat.  You may lower your MP 1 level or you may search your Life Deck for a Dragon Ball and play it." />
 <property name="Limit per Deck" value="1" />
 </card>
@@ -1250,7 +1250,7 @@
 <property name="Rarity" value="Uncommon" />
 <property name="Type" value="Personality" />
 <property name="PUR" value="2" />
-<property name="Power Rating" value="12,000; 11,500; 11,000; 10,500; 10,000; 7,000; 4,000; 1,000; 500; 250; 0" />
+<property name="Power Rating" value="0; 250; 500; 1000; 4000; 7000; 10000; 10500; 11000; 11500; 12000" />
 <property name="Text" value="[CONSTANT]:  Your Styled attacks deal +2 stages of damage and cannot have their damage prevented." />
 <property name="Limit per Deck" value="1" />
 </card>
@@ -1261,7 +1261,7 @@
 <property name="Rarity" value="Uncommon" />
 <property name="Type" value="Personality" />
 <property name="PUR" value="3" />
-<property name="Power Rating" value="30,000; 25,000; 20,000; 15,000; 10,000; 8,000; 6,000; 4,000; 2,000; 1,000; 0" />
+<property name="Power Rating" value="0; 1000; 2000; 4000; 6000; 8000; 10000; 15000; 20000; 25000; 30000" />
 <property name="Text" value="POWER:  Energy attack costing 2 stages.  DAMAGE:  5 stages.  Damage from this cannot be prevented.  HIT:  Your opponent pays 3 stages or you may raise your anger 2 levels and use a critical damage effect." />
 <property name="Limit per Deck" value="1" />
 </card>
@@ -1272,7 +1272,7 @@
 <property name="Rarity" value="Uncommon" />
 <property name="Type" value="Personality" />
 <property name="PUR" value="4" />
-<property name="Power Rating" value="125,000; 105,000; 85,000; 65,000; 45,000; 25,000; 20,000; 15,000; 10,000; 5,000; 0" />
+<property name="Power Rating" value="0; 5000; 10000; 15000; 20000; 25000; 45000; 65000; 85000; 105000; 125000" />
 <property name="Text" value="POWER:  Banish the top 3 cards of your opponent's discard pile.  [CONSTANT]:  Your attacks deal +3 stages of damage and cannot have their damage prevented." />
 <property name="Limit per Deck" value="1" />
 </card>
@@ -1283,7 +1283,7 @@
 <property name="Rarity" value="Uncommon" />
 <property name="Type" value="Personality" />
 <property name="PUR" value="5" />
-<property name="Power Rating" value="300,000; 200,000; 150,000; 100,000; 75,000; 50,000; 25,000; 20,000; 15,000; 10,000; 0" />
+<property name="Power Rating" value="0; 10000; 15000; 20000; 25000; 50000; 75000; 100000; 150000; 200000; 300000" />
 <property name="Text" value="POWER:  Physical attack.  DAMAGE:  X stages and X life cards.  X = the number of power stages your opponent's MP is above 0.  Endurance cannot be used this turn." />
 <property name="Limit per Deck" value="1" />
 </card>
@@ -1581,7 +1581,7 @@
 <property name="Rarity" value="Promo" />
 <property name="Type" value="Personality" />
 <property name="PUR" value="3" />
-<property name="Power Rating" value="150,000,000; 25,000,000; 1,250,000; 600,000; 300,000; 150,000; 75,000; 30,000;15,000; 7,500; 0" />
+<property name="Power Rating" value="150000000; 25000000; 1250000; 600000; 300000; 150000; 75000; 30000;15000; 7500; 0" />
 <property name="Text" value="(Villains only.)  [CONSTANT]:  If your MP is a Saiyan, your Styled attacks deal +X stages of damage.  X = the number of Saiyans in play." />
 <property name="Limit per Deck" value="1" />
 </card>
