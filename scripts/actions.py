@@ -39,6 +39,7 @@ def powerUp(group, x = 0, y = 0):
                                         card.markers[CounterMarker] = 10
                         except:
                                 pass
+        notify("{} powers up their personalities".format(me.name))
 
 def tap(card, x = 0, y = 0):
     mute()
@@ -56,6 +57,12 @@ def flip(card, x = 0, y = 0):
     else:
         card.isFaceUp = True
         notify("{} turns {} face up.".format(me, card))
+
+def faceUpAll():
+    mute()
+    for c in table:
+        if c.controller == me:
+            c.isFaceUp = True
 
 def discard(card, x = 0, y = 0):
 	card.moveTo(me.piles['Discard Pile'])
@@ -88,10 +95,16 @@ def setCounter(card, x = 0, y = 0):
 	card.markers[CounterMarker] = quantity	
 		
 def play(card, x = 0, y = 0):
-	mute()
-	src = card.group
-	card.moveToTable(0, 0)
-	notify("{} plays {} from their {}.".format(me, card, src.name))
+    mute()
+    src = card.group
+    if not me.isInverted:
+        cardPlayed_x_offset = HostPlayerCardPlayed_x_Offset
+        cardPlayed_y_offset = HostPlayerCardPlayed_y_Offset
+    else:
+        cardPlayed_x_offset = GuestPlayerCardPlayed_x_Offset
+        cardPlayed_y_offset = GuestPlayerCardPlayed_y_Offset
+    card.moveToTable(cardPlayed_x_offset, cardPlayed_y_offset)
+    notify("{} plays {} from their {}.".format(me, card, src.name))
 
 def mulligan(group):
     mute()
@@ -127,6 +140,11 @@ def drawMany(group, count = None):
 	for card in group.top(count): card.moveTo(me.hand)
 	notify("{} draws {} cards.".format(me, count))
 
+def drawThree():
+    mute()
+    for card in me.piles["Life Deck"].top(3): card.moveTo(me.hand)
+    notify("{} draws 3 cards.".format(me))
+
 def drawBottom(group, x = 0, y = 0):
 	if len(group) == 0: return
 	mute()
@@ -149,50 +167,6 @@ def endMyTurn(opponent = None):
    me.setGlobalVariable('phase','0') # In case we're on the last phase (Force), we end our turn.
    notify("=== {} has ended their turn ===.".format(me))
    opponent.setActivePlayer() 
-      
-def nextPhase(group = table, x = 0, y = 0, setTo = None):  
-# Function to take you to the next phase. 
-   mute()
-   phase = num(me.getGlobalVariable('phase'))
-   if phase == 5: 
-      endMyTurn()
-      return  
-   else:
-      if not me.isActivePlayer and confirm("Your opponent does not seem to have ended their turn yet. Switch to your turn?"):
-         remoteCall(findOpponent(),'endMyTurn',[me])
-         rnd(1,1000) # Pause to wait until they change their turn
-      phase += 1
-      if phase == 1: goToDraw()
-      elif phase == 2: goToPlanning()
-      elif phase == 3: goToDeclare()
-      elif phase == 4: goToCombat()
-      elif phase == 5: goToRejuv()
-
-def goToDraw(group = table, x = 0, y = 0): # Go directly to the Balance phase
-   mute()
-   me.setGlobalVariable('phase','1')
-   showCurrentPhase(1)
-         
-def goToPlanning(group = table, x = 0, y = 0): # Go directly to the Balance phase
-   mute()
-   me.setGlobalVariable('phase','2')
-   showCurrentPhase(2)
-         
-def goToDeclare(group = table, x = 0, y = 0): # Go directly to the Balance phase
-   mute()
-   me.setGlobalVariable('phase','3')
-   showCurrentPhase(3)
-         
-def goToCombat(group = table, x = 0, y = 0): # Go directly to the Balance phase
-   mute()
-   me.setGlobalVariable('phase','4')
-   showCurrentPhase(4)
-         
-def goToRejuv(group = table, x = 0, y = 0): # Go directly to the Balance phase
-   mute()
-   me.setGlobalVariable('phase','5')
-   showCurrentPhase(5)
-         
 
 #---------------------------------------------------------------------------
 # Meta Functions
