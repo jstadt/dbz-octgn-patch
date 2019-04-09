@@ -1,3 +1,10 @@
+####################################################
+#  engine.py
+# This script contains functions that manage the DBZ
+# game engine.
+####################################################
+
+
 import re
 
 # ===================
@@ -6,7 +13,7 @@ import re
 
 # gameSetup 
 # This function prepares the game for the first turn.
-# It should be called by both players.
+# It should be called on behalf of each player.
 # Invokes 'faceUpAll' to turn MP/Mastery face up.
 # Shuffles the player's Life Deck
 # Searches the table for the player's MP and sets its
@@ -19,7 +26,7 @@ def gameSetup():
             c.markers[CounterMarker] = 5
 
 # determineFirstPlayer
-# This function should be called by only one player.
+# This function should be called on behalf of one player.
 # Randomly determine which player will have the option
 # of going first, and present the choice to that player.
 # TODO: Add "Before the first turn" effects (Currently
@@ -52,26 +59,6 @@ def chooseFirstPlayer():
 # =================
 # Phase Management
 # =================
-
-# nextPhase
-# Invoked by the Active Player by pressing Ctrl+Enter
-# Increments the phase counter using setPhase
-# Exceptions:
-#  - If the current phase is the final phase of the turn,
-#    pass the turn to the opponent
-#  - TODO: If the current phase is the discard step and
-#    players have too many cards in hand, do not allow
-#    progression to the next phase
-def nextPhase(group = table, x = 0, y = 0): 
-   mute()
-   phase = currentPhase()
-   #if phase[1] == 6 and not enforceHandLimits():
-       #return
-   if phase[1] == 7: 
-      nextTurn(findOpponent())
-      return  
-   else:
-    setPhase(phase[1]+1)
 
 # manageDrawPhase
 # Only called by the handlePhase event handler.
@@ -140,6 +127,12 @@ def manageRejuvenatePhase():
             rejuvenate(1)
     # Can't automatically go to the next phase until effects like Popo are handled
     #nextPhase()
+
+# ==========================
+# End Phase Management
+# ==========================
+
+
 
 # rejuvenate
 # Arguments:

@@ -23,6 +23,7 @@
 <script src="scripts/util.py" />
 </scripts>
 <events>
+   <event name="OnTableLoaded" action="boardInit" />
    <event name="OnGameStarted" action="gameInit" />
    <event name="OnDeckLoaded" action="loadDeck" />
    <event name="OnTurnPassed" action="autosave" />
@@ -45,6 +46,7 @@
       <document name="Turn Sequence/Attack Table" icon="documents/Manual.png" src="documents/reference.png" />
 </documents>
 <globalvariables>
+   <globalvariable name="automationEnabled" value="False" />
    <globalvariable name="numLoadedDecks" value="0" />
 </globalvariables>
 <card back="Cards/back.png" front="Cards/front.png" width="63" height="88">
@@ -74,18 +76,22 @@
    <cardaction menu="Lower Power Stage" shortcut="F2" execute="removeCounter" />
 	<cardaction menu="Set Power Stage" shortcut="F3" execute="setCounter" />
    <groupaction menu="Move to Next phase." default="False" shortcut="Ctrl+Enter" execute="nextPhase" />
+   <groupactions menu="Game Setup Automation">
+      <groupaction menu="Enable Automation" shortcut="Ctrl+A" execute="enableSetupAutomation" />
+      <groupaction menu="Disable Automation" shortcut="Ctrl+Z" execute="disableSetupAutomation" />
+   </groupactions>
    <groupactions menu="Announcements">
       <groupaction menu="OK" default="False" execute="BUTTON_OK"  shortcut="Ctrl+1"/>
       <groupaction menu="Wait!" default="False" execute="BUTTON_Wait" shortcut="Ctrl+2"/>
       <groupaction menu="Actions?" default="False" execute="BUTTON_Actions" shortcut="Ctrl+3"/>
       <groupaction menu="Pass." default="False" execute="declarePass" shortcut="Ctrl+Space"/>
    </groupactions>
-	<groupactions menu="Saving Tools">
+   <groupactions menu="Saving Tools">
 		<groupaction menu="Save Game..." default="False" execute="saveTable" />
 		<groupaction menu="Load Game..." default="False" execute="loadTable" />
 		<groupaction menu="Autosave Mode On..." default="False" execute="autosaveOn" />
 		<groupaction menu="Autosave Mode Off..." default="False" execute="autosaveOff" />
-		</groupactions>
+   </groupactions>
 </table>
 <player summary="Anger: {#Anger} / Hand: {#Hand}">
    <globalvariable name="powerLevel" value="0" />

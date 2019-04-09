@@ -1,5 +1,11 @@
-import re
 ####################################################
+#  actions.py
+# This script contains functions that are invoked
+# directly by the player. For example, menu options
+# double clicking cards,and hotkeys
+####################################################
+
+import re
 
 def untapAll(group, x = 0, y = 0):
 	mute()
@@ -158,6 +164,26 @@ def shuffle(group):
 # Phases
 #---------------------------------------------------------------------------
 
+# nextPhase
+# Invoked by the Active Player by pressing Ctrl+Enter
+# Increments the phase counter using setPhase
+# Exceptions:
+#  - If the current phase is the final phase of the turn,
+#    pass the turn to the opponent
+#  - TODO: If the current phase is the discard step and
+#    players have too many cards in hand, do not allow
+#    progression to the next phase
+def nextPhase(group = table, x = 0, y = 0): 
+   mute()
+   phase = currentPhase()
+   #if phase[1] == 6 and not enforceHandLimits():
+       #return
+   if phase[1] == 7: 
+      nextTurn(findOpponent())
+      return  
+   else:
+    setPhase(phase[1]+1)
+
 def showCurrentPhase(phaseNR = None): # Just say a nice notification about which phase you're on.
    if phaseNR: notify(phases[phaseNR])
    else: notify(phases[num(me.getGlobalVariable('phase'))])
@@ -167,6 +193,18 @@ def endMyTurn(opponent = None):
    me.setGlobalVariable('phase','0') # In case we're on the last phase (Force), we end our turn.
    notify("=== {} has ended their turn ===.".format(me))
    opponent.setActivePlayer() 
+
+#---------------------------------------------------------------------------
+# Automation Management Functions
+#---------------------------------------------------------------------------
+
+def enableSetupAutomation(group = table, x = 0, y = 0):
+    setGlobalVariable("automationEnabled", "True")
+    notify("Game Setup Automation enabled for both players.")
+
+def disableSetupAutomation(group = table, x = 0, y = 0):
+    setGlobalVariable("automationEnabled", "False")
+    notify("Game Setup Automation disabled for both players.")
 
 #---------------------------------------------------------------------------
 # Meta Functions

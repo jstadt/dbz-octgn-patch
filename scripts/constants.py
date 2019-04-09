@@ -1,3 +1,8 @@
+####################################################
+#  constants.py
+# This script contains constant definitions
+####################################################
+
 CounterMarker =("Power Stage", "d766faa2-b28a-4fca-86c2-b752c0293714")
 
 HostPlayerMP_x_Offset = 0

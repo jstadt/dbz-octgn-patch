@@ -1,7 +1,24 @@
-# === Event Handlers
+####################################################
+#  events.py
+# This script contains event handler functions for
+# the events listed in the game definition.
+####################################################
+
 import re
 import collections
 import time
+
+# boardInit
+# Trigger: OnTableLoaded (whenever the game is loaded for the
+# first time)
+# Arguments: None
+# Sets the default value (disabled) for automationEnabled
+def boardInit():
+    setGlobalVariable("automationEnabled", "False")
+    whisper("Press Ctrl+A to enable Game Setup Automation for both players.")
+    whisper("This automation will play your MP and Mastery (face down) to the table when your deck is loaded.")
+    whisper("When both players have loaded a deck, cards will turn face up, decks will be shuffled, and the first player will be randomly decided.")
+    whisper("Press Ctrl+Z to disable Game Setup Automation once enabled.")
 
 # gameInit
 # Trigger: OnGameStarted (whenever the game is loaded or reset)
@@ -21,8 +38,12 @@ def gameInit():
 # Level 1 MP, and move those two cards to the table face-down.
 # If the other player has already loaded their deck, both players
 # call "gameSetup" and then the first player is determined.
+# This functionality can be opted out of by disabling Game Setup
+# Automation.
 def loadDeck(args):
     mute()
+    if not eval(getGlobalVariable("automationEnabled")):
+        return
     if not me.isInverted:
         mp_x_offset = HostPlayerMP_x_Offset
         mp_y_offset = HostPlayerMP_y_Offset
