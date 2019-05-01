@@ -146,6 +146,15 @@ def drawMany(group, count = None):
 	for card in group.top(count): card.moveTo(me.hand)
 	notify("{} draws {} cards.".format(me, count))
 
+def rejuvenateOne(group):
+    rejuvenate()
+
+def rejuvenateMany(group):
+    if len(group) == 0: return
+    count = askInteger("Rejuvenate how many cards?", 0)
+    if count > 0:
+        rejuvenate(count)
+
 def drawThree():
     mute()
     for card in me.piles["Life Deck"].top(3): card.moveTo(me.hand)

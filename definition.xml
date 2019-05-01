@@ -113,6 +113,8 @@
     <group name="Discard Pile" visibility="all" icon="groups/graveyard.png" shortcut="F6">
     <groupaction menu="Banish top card" default="True" shortcut="Ctrl+B" execute="banishTop" />
     <groupaction menu="Banish bottom card" default="True" shortcut="Ctrl+Shift+B" execute="banishBottom" />
+    <groupaction menu="Rejuvenate 1" default="True" shortcut="F5" execute="rejuvenateOne" />
+    <groupaction menu="Rejuvenate X..." default="True" shortcut="F6" execute="rejuvenateMany" />
 </group>
     <group name="Removed from game" visibility="all" icon="groups/removed.png" collapsed="False" shortcut="F7"></group>
 	<group name="Starting" visibility="none" icon="groups/starting.png" collapsed="False" shortcut="F8"></group>
