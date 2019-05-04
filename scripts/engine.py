@@ -142,8 +142,12 @@ def manageRejuvenatePhase():
 # TODO:
 #   - Look at cards to be rejuvenated at trigger any "when rejuvenated" effects.
 #   - Look for effects that prevent or modify rejuvenation and make sure they are applied.
-def rejuvenate(count = 1):
-    for card in me.piles["Discard Pile"].top(count): card.moveToBottom(me.piles["Life Deck"])
+def rejuvenate(count = 1, silent = False):
+    mute()
+    for card in me.piles["Discard Pile"].top(count): 
+        card.moveToBottom(me.piles["Life Deck"])
+        if silent = False:
+            notify("{} rejuvenated {}.".format(me, card))
 
 def lookupAttackTable(group, x = 0, y = 0):
     mute()
