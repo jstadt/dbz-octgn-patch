@@ -16,7 +16,7 @@ def verifySaveDirectory(group,x=0,y=0):
                 filename = dir.replace('GameDatabase','Decks').replace('383a6ac2-6e52-40a5-980f-fade09e4908b','Dragon Ball Z')
         else:
                 filename = "Decks\Dragon Ball Z".join(dir.rsplit('OCTGN',1))
-        notify(filename)
+        #notify(filename)
         try:
                 nt.mkdir(filename)
         except:
@@ -27,7 +27,7 @@ def verifySaveDirectory(group,x=0,y=0):
         except:
                 pass
 
-def autosave(p, x=0, y=False):
+def autosave(args):
         global autosaveMode
         autosaveMode = getSetting("autosaveMode", False)
         if autosaveMode:
