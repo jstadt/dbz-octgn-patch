@@ -517,7 +517,7 @@
 <property name="Rarity" value="Uncommon" />
 <property name="Type" value="Villain Ally" />
 <property name="PUR" value="1" />
-<property name="Power Rating" value="0; 250; 500; 1,000; 4,000; 5,000; 10,000; 20,000; 40,000; 60,000; 80,000" />
+<property name="Power Rating" value="0; 250; 500; 1000; 4000; 5000; 10000; 20000; 40000; 60000; 80000" />
 <property name="Text" value="POWER: Physical attack. If stopped, draw a card. DAMAGE: 3 stages." />
 <property name="Limit per Deck" value="1" />
 <property name="Endurance" value="" />
@@ -529,7 +529,7 @@
 <property name="Rarity" value="Uncommon" />
 <property name="Type" value="Villain Ally" />
 <property name="PUR" value="1" />
-<property name="Power Rating" value="0; 250; 500; 1,000; 1,500; 2,500; 5,000; 10,000; 20,000; 30,000" />
+<property name="Power Rating" value="0; 250; 500; 1000; 1500; 2500; 5000; 10000; 20000; 30000" />
 <property name="Text" value="(If your MP is Frieza, Cooler or King Cold, you may use this Power regardless of your MP\'s power stage.) CONTINUOUS POWER: Cards cannot attack to personalities. POWER: Rejuvenate 1. Banish the bottom 3 cards of your opponent\'s discard pile." />
 <property name="Limit per Deck" value="1" />
 <property name="Endurance" value="" />
@@ -541,7 +541,7 @@
 <property name="Rarity" value="Uncommon" />
 <property name="Type" value="Villain Ally" />
 <property name="PUR" value="1" />
-<property name="Power Rating" value="0; 2,000; 2,500; 3,000; 3,500; 4,500; 6,000; 6,500; 8,000; 9,000; 10,000" />
+<property name="Power Rating" value="0; 2000; 2500; 3000; 3500; 4500; 6000; 6500; 8000; 9000; 10000" />
 <property name="Text" value="(If your MP is a Saiyan, you may use this Power regardless of your MP\'s power stage.) SHIELD POWER: Prevent all damage from a physical attack. If your MP is Vegeta, you may use this Power a second time this combat." />
 <property name="Limit per Deck" value="1" />
 <property name="Endurance" value="" />
@@ -553,7 +553,7 @@
 <property name="Rarity" value="Uncommon" />
 <property name="Type" value="Villain Ally" />
 <property name="PUR" value="1" />
-<property name="Power Rating" value="0; 10; 25; 50; 75; 100; 200; 250; 500; 600; 1,000" />
+<property name="Power Rating" value="0; 10; 25; 50; 75; 100; 200; 250; 500; 600; 1000" />
 <property name="Text" value="(If your MP is a Saiyan and the highest power level on your MP\'s Level 4 is 500,000 or less, your Life Deck may include up to 3 copies of this card and you may use this Power regardless of your MP\'s power stage.) POWER: Physical attack. Banish the top card of your opponent\'s discard pile. DAMAGE: 2 life cards or 2 stages." />
 <property name="Limit per Deck" value="1" />
 <property name="Endurance" value="" />
@@ -565,7 +565,7 @@
 <property name="Rarity" value="Uncommon" />
 <property name="Type" value="Villain Ally" />
 <property name="PUR" value="1" />
-<property name="Power Rating" value="0; 250; 500; 1,000; 1,500; 2,000; 2,500; 3,000; 3,500; 4,000; 4,500" />
+<property name="Power Rating" value="0; 250; 500; 1000; 1500; 2000; 2500; 3000; 3500; 4000; 4500" />
 <property name="Text" value="(If your MP is Bardock, once per combat you may place this card into play from your hand at 2 power stages above 0 to stop a hysical or energy attack.) CONTINUOUS POWER: Effects that destroy cards from the top of a player\'s Life Deck have that amount increased by 1." />
 <property name="Limit per Deck" value="1" />
 <property name="Endurance" value="" />
@@ -577,7 +577,7 @@
 <property name="Rarity" value="Starter" />
 <property name="Type" value="Villain" />
 <property name="PUR" value="2" />
-<property name="Power Rating" value="0; 500; 1,000; 1,250; 1,500; 2,500; 4,500; 6,000; 6,500; 7,500; 8,000" />
+<property name="Power Rating" value="0; 500; 1000; 1250; 1500; 2500; 4500; 6000; 6500; 7500; 8000" />
 <property name="Text" value="CONTINUOUS POWER: Whenever a player searches your oponent\'s Life Deck, you may raise your anger 1 level. POWER: Destroy the top card of your Life Deck. Your opponent reveals their hand. Search your opponent\'s LIfe Deck for a card and destroy it." />
 <property name="Limit per Deck" value="" />
 <property name="Endurance" value="" />
@@ -589,7 +589,7 @@
 <property name="Rarity" value="Starter" />
 <property name="Type" value="Villain" />
 <property name="PUR" value="3" />
-<property name="Power Rating" value="0; 1,000; 9,000; 10,000; 15,000; 18,500; 20,000; 25,000; 30,000; 33,000; 35,000" />
+<property name="Power Rating" value="0; 1000; 9000; 10000; 15000; 18500; 20000; 25000; 30000; 33000; 35000" />
 <property name="Text" value="CONTINUOUS POWER: Your opponent lays with their hand revealed. Whenever an effect destroys cards from your opponent\'s Life Deck, you may raise your anger 1 level. POWER: Destroy the top card of your Life Deck to banish the bottom card of your oponent\'s discard pile. You may discard a card from your hand. If you do, your opponent discards a card from their hand." />
 <property name="Limit per Deck" value="" />
 <property name="Endurance" value="" />
@@ -601,7 +601,7 @@
 <property name="Rarity" value="Starter" />
 <property name="Type" value="Villain" />
 <property name="PUR" value="4" />
-<property name="Power Rating" value="0; 5,000; 9,000; 10,000; 15,000; 30,000; 40,000; 70,000; 80,000; 90,000; 100,000" />
+<property name="Power Rating" value="0; 5000; 9000; 10000; 15000; 30000; 40000; 70000; 80000; 90000; 100000" />
 <property name="Text" value="CONTINUOUS POWER: Your opponent plays with their hand revealed. POWER: Search your opponent\'s Life Deck for up to 3 Styled cards and destroy them. Reveal the top 4 cards of your Life Deck and place them back in any order. Your opponent skips their next action this combat." />
 <property name="Limit per Deck" value="" />
 <property name="Endurance" value="" />
@@ -613,7 +613,7 @@
 <property name="Rarity" value="Starter" />
 <property name="Type" value="Villain" />
 <property name="PUR" value="5" />
-<property name="Power Rating" value="0; 10,000; 25,000; 50,000; 100,000; 200,000; 400,000; 600,000; 800,000; 1,000,000; 1,100,000" />
+<property name="Power Rating" value="0; 10000; 25000; 50000; 100000; 200000; 400000; 600000; 800000; 1000000; 1100000" />
 <property name="Text" value="CONTINUOUS POWER: Your opponent plays with their hand revealed. At the end of each turn, your opponent discards their hand. POWER: Gain 4 stages. Destroy the top 3 cards of a player\'s Life Deck. The first Styled Setup destroyed by this effect is placed into play under your control." />
 <property name="Limit per Deck" value="" />
 <property name="Endurance" value="" />
@@ -625,7 +625,7 @@
 <property name="Rarity" value="Starter" />
 <property name="Type" value="Villain" />
 <property name="PUR" value="2" />
-<property name="Power Rating" value="0; 5,000; 10,000; 25,000; 35,000; 40,000; 45,000; 50,000; 60,000; 80,000; 100,000" />
+<property name="Power Rating" value="0; 5000; 10000; 25000; 35000; 40000; 45000; 50000; 60000; 80000; 100000" />
 <property name="Text" value="CONTINUOUS POWER: Your attacks deal their life card damage as stages of damage instead. INSTANT POWER: Use after your attack deals 5 or more stages of damage. That attack is considered to deal critical damage. Raise your anger 2 levels. POWER: Rejuvenate 1. You may draw a card. If you do, discard a card." />
 <property name="Limit per Deck" value="" />
 <property name="Endurance" value="" />
@@ -637,7 +637,7 @@
 <property name="Rarity" value="Starter" />
 <property name="Type" value="Villain" />
 <property name="PUR" value="2" />
-<property name="Power Rating" value="0; 10,000; 15,000; 20,000; 50,000; 100,000; 150,000; 160,000; 180,000; 200,000" />
+<property name="Power Rating" value="0; 10000; 15000; 20000; 50000; 100000; 150000; 160000; 180000; 200000" />
 <property name="Text" value="CONTINUOUS POWER: Your attacks deal their life card damage as stages of damage instead. Your attacks deal +1 stage of damage. POWER: Physical attack. Rejuvenate 1. This attack is considered to deal critical damage. DAMAGE: 5 stages. HIT: Raise your anger 1 level." />
 <property name="Limit per Deck" value="" />
 <property name="Endurance" value="" />
@@ -649,7 +649,7 @@
 <property name="Rarity" value="Starter" />
 <property name="Type" value="Villain" />
 <property name="PUR" value="4" />
-<property name="Power Rating" value="0; 10,000; 25,000; 50,000; 125,000; 150,000; 200,000; 250,000; 460,000; 480,000; 600,000" />
+<property name="Power Rating" value="0; 10000; 25000; 50000; 125000; 150000; 200000; 250000; 460000; 480000; 600000" />
 <property name="Text" value="CONTINUOUS POWER: Your attacks deal their life card damage as stages of damage instead. Your attacks that deal 5 or more stages of damage are considered to deal critical damage. Whenever you deal critical damage, you may raise your anger 1 level. PPOWER: Physical attack. DAMAGE: 6 stages. HIT: Raise your anger 1 level. Rejuvenate 2. Banish an opponent\'s Setup, Drill or Ally." />
 <property name="Limit per Deck" value="" />
 <property name="Endurance" value="" />
@@ -661,7 +661,7 @@
 <property name="Rarity" value="Starter" />
 <property name="Type" value="Villain" />
 <property name="PUR" value="5" />
-<property name="Power Rating" value="0; 10,000; 25,000; 50,000; 100,000; 150,000; 200,000; 300,000; 400,000; 500,000; 650,000" />
+<property name="Power Rating" value="0; 10000; 25000; 50000; 100000; 150000; 200000; 300000; 400000; 500000; 650000" />
 <property name="Text" value="CONTINUOUS POWER: Your attacks deal their life card damage as stages of damage instead. Your attacks that deal 5 or more stages of damage are considered to deal critical damage. Personalities cannot eb more than 5 stages above 0. POWER: Gain 3 stages. Choose a personality in play.  That personality loses 3 stages." />
 <property name="Limit per Deck" value="" />
 <property name="Endurance" value="" />
@@ -697,7 +697,7 @@
 <property name="Rarity" value="Starter" />
 <property name="Type" value="Hero" />
 <property name="PUR" value="5" />
-<property name="Power Rating" value="0; 200; 300; 400; 500; 600; 700; 800; 900; 1,000; 1,050" />
+<property name="Power Rating" value="0; 200; 300; 400; 500; 600; 700; 800; 900; 1000; 1050" />
 <property name="Text" value="(When you advance to this level, you may shuffle a Dragon Ball in play back into its owner\'s Life Deck. Search your Banished Zone for an Earth Dragon Ball and place it into play.) CONTINUOUS POWER: When you control 3 or more Earth Dragon Balls, your oponent\'s attacks deal -3 stages of damage and your energy attacks deal +3 life cards of damage. POWER: Raise your anger 1 level. You may banish an Earth Dragon ball you control. If you do, search your Banished Zone for a Dragon Ball or Styled Drill and Rejuvenate it." />
 <property name="Limit per Deck" value="" />
 <property name="Endurance" value="" />
@@ -709,7 +709,7 @@
 <property name="Rarity" value="Starter" />
 <property name="Type" value="Hero" />
 <property name="PUR" value="5" />
-<property name="Power Rating" value="0; 300; 400; 500; 600; 700; 800; 900; 1,000; 1,050; 1,100" />
+<property name="Power Rating" value="0; 300; 400; 500; 600; 700; 800; 900; 1000; 1050; 1100" />
 <property name="Text" value="(When you reach this level, cature an Earth Dragon Ball or place a Dragon Ball from your Banished Zone into play.) POWER: Energy attack costing 1 stage. If 5 or more Earth Dragon Balls are in play and/or in your Banished Zone, search your discard pile for a Styled Drill and play it and this attack cannot be stopped. DAMAGE: 5 life cards." />
 <property name="Limit per Deck" value="" />
 <property name="Endurance" value="" />
@@ -721,7 +721,7 @@
 <property name="Rarity" value="Starter" />
 <property name="Type" value="Villain" />
 <property name="PUR" value="3" />
-<property name="Power Rating" value="0; 1,000; 3,000; 4,000; 5,000; 6,000; 7,000; 8,000; 9,000; 10,000; 11,000" />
+<property name="Power Rating" value="0; 1000; 3000; 4000; 5000; 6000; 7000; 8000; 9000; 10000; 11000" />
 <property name="Text" value="CONTINUOUS POWER: Your attacks deal +2 stages of damage. POWER: Physical attack. Raise your anger 1 level. DAMAGE: AT +2 stages. HIT: Destroy a Drill." />
 <property name="Limit per Deck" value="" />
 <property name="Endurance" value="" />
@@ -733,7 +733,7 @@
 <property name="Rarity" value="Starter" />
 <property name="Type" value="Villain" />
 <property name="PUR" value="3" />
-<property name="Power Rating" value="0; 1,000; 2,000; 4,000; 5,000; 7,000; 8,000; 9,000; 10,000; 10,500; 11,000" />
+<property name="Power Rating" value="0; 1000; 2000; 4000; 5000; 7000; 8000; 9000; 10000; 10500; 11000" />
 <property name="Text" value="CONTINUOUS POWER: Your attacks without \'anger\' printed in the text-box gain \'Raise your anger 1 level.\' POWER: Physical attack. Raise your anger 1 level. This attack is considered to deal critical damage. DAMAGE: 4 stages." />
 <property name="Limit per Deck" value="" />
 <property name="Endurance" value="" />

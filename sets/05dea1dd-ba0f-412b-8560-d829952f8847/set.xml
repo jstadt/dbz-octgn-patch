@@ -750,7 +750,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Personality" />
       <property name="PUR" value="3" />
-      <property name="Power Rating" value="500,000; 300,000; 100,000; 70,000; 40,000; 10,000; 8,000; 6,000; 4,000; 2,000; 0" />
+      <property name="Power Rating" value="0; 2000; 4000; 6000; 8000; 10000; 40000; 70000; 100000; 300000; 500000" />
       <property name="Text" value="(Your Life Deck may include up to 3 copies of each Ally with &quot;Cell Jr.&quot; in the title.) POWER: Physical attack. You may discard an Ally with &quot;Cell Jr.&quot; in the title from your hand. If you do, this attack cannot be stopped. DAMAGE: 4 stages. HIT: Search your Life Deck for a card with a CONSTANT effect and play it." />
       <property name="Limit per Deck" value="1" />
     </card>
@@ -761,7 +761,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Personality" />
       <property name="PUR" value="4" />
-      <property name="Power Rating" value="700,000; 500,000; 300,000; 100,000; 90,000; 80,000; 70,000; 60,000; 50,000; 40,000; 0" />
+      <property name="Power Rating" value="0; 40000; 50000; 60000; 70000; 80000; 90000; 100000; 300000; 500000; 700000" />
       <property name="Text" value="CONSTANT: Once per combat, you may discard an Ally with &quot;Cell Jr.&quot; in the title from your hand to stop an attack. POWER: Physical attack. DAMAGE: 5 +X stages. X = the number of personalities with &quot;Cell Jr.&quot; in the title in your discard pile." />
       <property name="Limit per Deck" value="1" />
     </card>
@@ -772,7 +772,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Personality" />
       <property name="PUR" value="5" />
-      <property name="Power Rating" value="900,000; 700,000; 500,000; 400,000; 300,000; 200,000; 100,000; 75,000; 50,000; 25,000; 0" />
+      <property name="Power Rating" value="0; 25000; 50000; 75000; 100000; 200000; 300000; 400000; 500000; 700000; 900000" />
       <property name="Text" value="CONSTANT: You may Rejuvenate an Ally with &quot;Cell Jr.&quot; in the title from your hand to stop a physical or energy attack. Physical attack. Search your discard pile for 2 Allies with &quot;Cell Jr.&quot; in the title and Rejuvenate them. DAMAGE: 1 life card. HIT: Search your Life Deck for an Ally with &quot;Cell Jr.&quot; in the title and place it in your hand." />
       <property name="Limit per Deck" value="1" />
     </card>
@@ -783,7 +783,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Personality" />
       <property name="PUR" value="6" />
-      <property name="Power Rating" value="1,100,000; 900,000; 700,000; 500,000; 400,000; 300,000; 200,000; 100,000; 50,000; 25,000; 0" />
+      <property name="Power Rating" value="0; 25000; 50000; 100000; 200000; 300000; 400000; 500000; 700000; 900000; 1100000" />
       <property name="Text" value="CONSTANT: As an action during combat, you may banish an Ally with &quot;Cell Jr.&quot; in the title from your hand to destroy the top 3 cards of your opponent's Life Deck. Your physical attacks that do not have AT base damage deal +3 stages of damage." />
       <property name="Limit per Deck" value="1" />
     </card>
@@ -805,7 +805,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Personality" />
       <property name="PUR" value="3" />
-      <property name="Power Rating" value="287; 257; 227; 197; 167; 137; 107; 77; 47; 17; 0" />
+      <property name="Power Rating" value="0; 17; 47; 77; 107; 137; 167; 197; 227; 257; 287" />
       <property name="Text" value="CONSTANT: Whenever you perform an attack, destroy the top card of your opponent's Life Deck. POWER: Physical attack. You may shuffle a card from your hand into your Life Deck to draw a card. DAMAGE: 1 life card. HIT: Your next attack this combat cannot be stopped." />
       <property name="Limit per Deck" value="1" />
     </card>
@@ -816,7 +816,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Personality" />
       <property name="PUR" value="4" />
-      <property name="Power Rating" value="387; 357; 327; 297; 267; 237; 207; 177; 147; 117; 0" />
+      <property name="Power Rating" value="0; 117; 147; 177; 207; 237; 267; 297; 327; 357; 387" />
       <property name="Text" value="CONSTANT: Whenever one of your attacks is stopped, banish the top card of your opponent's Life Deck. If a Dragon Ball is banished in this way, you may play it. POWER: The next non-Styled attack you perform this combat cannon be stopped." />
       <property name="Limit per Deck" value="1" />
     </card>
@@ -827,7 +827,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Personality" />
       <property name="PUR" value="5" />
-      <property name="Power Rating" value="487; 467; 447; 427; 407; 387; 367; 347; 327; 307; 0" />
+      <property name="Power Rating" value="0; 307; 327; 347; 367; 387; 407; 427; 447; 467; 487" />
       <property name="Text" value="CONSTANT: Whenever you perform an attack, banish the top card of your opponent's Life Deck. POWER: Look at your opponent's hand and choose non-Dragon Ball card in it. Banish that card." />
       <property name="Limit per Deck" value="1" />
     </card>
@@ -838,7 +838,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Ally" />
       <property name="PUR" value="0" />
-      <property name="Power Rating" value="100,000; 90,000; 80,000; 70,000; 60,000, 50,000; 40,000; 30,000; 20,000; 10,000; 0" />
+      <property name="Power Rating" value="100000; 90000; 80000; 70000; 60000, 50000; 40000; 30000; 20000; 10000; 0" />
       <property name="Text" value="(This personality cannot gain stages.) CONSTANT: While you control 1 Ally, your effects that destroy cards from the top of your opponent's Life Deck have that amount increased by 1. If you MP is Cell, your opponent's attacks deal -1 life card of damage." />
       <property name="Limit per Deck" value="1" />
     </card>
@@ -849,7 +849,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Ally" />
       <property name="PUR" value="0" />
-      <property name="Power Rating" value="100,000; 90,000; 80,000; 70,000; 60,000; 50,000; 40,000; 30,000; 20,000; 10,000; 0" />
+      <property name="Power Rating" value="0; 10000; 20000; 30000; 40000; 50000; 60000; 70000; 80000; 90000; 100000" />
       <property name="Text" value="(This personality cannot gain stages.) CONSTANT: When this card is leaving play, you may banish it to destroy the top card of your opponent's Life Deck." />
       <property name="Limit per Deck" value="1" />
     </card>
@@ -860,7 +860,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Ally" />
       <property name="PUR" value="0" />
-      <property name="Power Rating" value="100,000; 90,000; 80,000; 70,000; 60,000; 50,000; 40,000; 30,000; 20,000; 10,000; 0" />
+      <property name="Power Rating" value="0; 10000; 20000; 30000; 40000; 50000; 60000; 70000; 80000; 90000; 100000" />
       <property name="Text" value="(This personality cannot gain stages.) POWER: Physical attack. Allies you control cannot perform attacks this combat. DAMAGE 3 +X stages. X= the number of Allies in play with &quot;Cell Jr.&quot; in the title. HIT: Shuffle all Allies you control with &quot;Cell Jr.&quot; in the title into their owner's Life Deck." />
       <property name="Limit per Deck" value="1" />
     </card>
@@ -871,7 +871,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Ally" />
       <property name="PUR" value="1" />
-      <property name="Power Rating" value="10; 9; 8; 7; 6; 5; 4; 3; 2; 1; 0" />
+      <property name="Power Rating" value="0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10" />
       <property name="Text" value="CONSTANT: Players play with their hand revealed. Allies gain &quot;Endurance 1.&quot;" />
       <property name="Limit per Deck" value="1" />
     </card>
@@ -882,7 +882,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Ally" />
       <property name="PUR" value="1" />
-      <property name="Power Rating" value="5; 5; 4; 4; 3; 3; 2; 2; 1; 1; 0" />
+      <property name="Power Rating" value="0; 1; 1; 2; 2; 3; 3; 4; 4; 5; 5" />
       <property name="Text" value="(If you MP is Hercule, you may use the power regardless of your MP's power stage.) POWER: Stops a physical or energy attack. Shuffle this card into your Life Deck after use." />
       <property name="Limit per Deck" value="1" />
     </card>
@@ -893,7 +893,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Ally" />
       <property name="PUR" value="1" />
-      <property name="Power Rating" value="12; 11; 10; 9; 8; 7; 6; 5; 4; 3; 0;" />
+      <property name="Power Rating" value="0; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12" />
       <property name="Text" value="(If your MP is Chi-Chi, Goku, Gohan, Goten, Pan, or Videl, Rejuvenate 3 when this card enters play.) CONSTANT: Damage from attacks can only be modified by the effects of Physical Combat or Energy Combat cards." />
       <property name="Limit per Deck" value="1" />
     </card>
@@ -904,7 +904,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Ally" />
       <property name="PUR" value="1" />
-      <property name="Power Rating" value="25; 23; 21; 19; 17; 15; 13; 11; 9; 7; 0" />
+      <property name="Power Rating" value="0; 7; 9; 11; 13; 15; 17; 19; 21; 23; 25" />
       <property name="Text" value="(If your MP is Yamcha, you may choose him with this power effect.) POWER: Choose a non- INSTANT/non-CONSTANT Power of an Ally in play that isn't Puar. Use that Power." />
       <property name="Limit per Deck" value="1" />
     </card>
@@ -1619,7 +1619,7 @@
       <property name="Rarity" value="Dragon Rare" />
       <property name="Type" value="Personality" />
       <property name="PUR" value="2" />
-      <property name="Power Rating" value="800,000; 400,000; 200,000; 100,000; 50,000; 25,000; 10,000; 5,000; 2,500; 1,250; 0" />
+      <property name="Power Rating" value="0; 1250; 2500; 5000; 10000; 25000; 50000; 100000; 200000; 400000; 800000" />
       <property name="Text" value="CONSTANT: Your attacks deal +1 life card of damage. [INSTANT] POWER: Use when entering combat. Draw a card." />
       <property name="Limit per Deck" value="1" />
     </card>
@@ -1630,7 +1630,7 @@
       <property name="Rarity" value="Dragon Rare" />
       <property name="Type" value="Personality" />
       <property name="PUR" value="3" />
-      <property name="Power Rating" value="1,250,000; 1,000,000; 750,000; 500,000; 250,000; 100,000; 80,000; 60,000; 40,000; 20,000; 0" />
+      <property name="Power Rating" value="0; 20000; 40000; 60000; 80000; 100000; 250000; 500000; 750000; 1000000; 1250000" />
       <property name="Text" value="CONSTANT: Your attacks deal +1 life card of damage and your opponent's attacks deal -1 life card of damage. POWER: Draw the bottom card of your discard pile. You may discard a card from your hand to use a critical damage effect." />
       <property name="Limit per Deck" value="1" />
     </card>
@@ -1641,7 +1641,7 @@
       <property name="Rarity" value="Dragon Rare" />
       <property name="Type" value="Personality" />
       <property name="PUR" value="4" />
-      <property name="Power Rating" value="1,750,000; 1,500,000; 1,250,000; 1,000,000; 750,000; 500,000; 250,000; 100,000; 50,000; 25,000; 0" />
+      <property name="Power Rating" value="0; 25000; 50000; 100000; 250000; 500000; 750000; 1000000; 1250000; 1500000; 1750000" />
       <property name="Text" value="CONSTANT: Your attacks deal +2 life cards of damage. POWER: Physical attack. Draw the top or bottom card of your discard pile. DAMAGE: AT +2 life cards." />
       <property name="Limit per Deck" value="1" />
     </card>
@@ -1652,7 +1652,7 @@
       <property name="Rarity" value="Dragon Rare" />
       <property name="Type" value="Personality" />
       <property name="PUR" value="5" />
-      <property name="Power Rating" value="2,400,000; 2,000,000; 1,600,000; 1,200,000; 800,000; 400,000; 100,000; 50,000; 25,000; 12,500; 0" />
+      <property name="Power Rating" value="0; 12500; 25000; 50000; 100000; 400000; 800000; 1200000; 1600000; 2000000; 2400000" />
       <property name="Text" value="CONSTANT: Your attacks deal +2 life cards of damage and your opponent's attack deal -2 life cards of damage. POWER: Search your Life Deck, discard pile, or Banished Zone for a Styled card and place it into your hand." />
       <property name="Limit per Deck" value="1" />
     </card>
@@ -1674,7 +1674,7 @@
       <property name="Rarity" value="Dragon Rare" />
       <property name="Type" value="Personality" />
       <property name="PUR" value="3" />
-      <property name="Power Rating" value="250,000; 175,000; 100,000; 80,000; 60,000; 40,000; 20,000; 10,000; 5,000; 2,500; 0" />
+      <property name="Power Rating" value="0; 2500; 5000; 10000; 20000; 40000; 60000; 80000; 100000; 175000; 250000" />
       <property name="Text" value="(Damage from your non-Styled attacks can only be modified by this card's effect.) CONSTANT: Your non-Styled attacks deal +2 life cards of damage. POWER: Energy attack costing 1 stage. Banish a card from your opponent's discard pile. DAMAGE: 1 life card." />
       <property name="Limit per Deck" value="1" />
     </card>
@@ -1685,7 +1685,7 @@
       <property name="Rarity" value="Dragon Rare" />
       <property name="Type" value="Personality" />
       <property name="PUR" value="4" />
-      <property name="Power Rating" value="950,000; 650,000; 350,000; 100,000; 80,000; 60,000; 40,000; 20,000; 10,000; 5,000; 0" />
+      <property name="Power Rating" value="0; 5000; 10000; 20000; 40000; 60000; 80000; 100000; 350000; 650000; 950000" />
       <property name="Text" value="(When you reach this level during combat, your opponent can only attack or pass in his or her next action this combat.) CONSTANT: Your non-Styled attacks deal +1 life card of damage and cannot have their damage prevented. POWER: Raise your anger 1 level. Your MP gains 3 stages." />
       <property name="Limit per Deck" value="1" />
     </card>
@@ -1696,7 +1696,7 @@
       <property name="Rarity" value="Dragon Rare" />
       <property name="Type" value="Personality" />
       <property name="PUR" value="5" />
-      <property name="Power Rating" value="1,500,000; 1,200,000; 900,000; 600,000; 300,000; 150,000; 100,000; 50,000; 25,000; 12,500; 0" />
+      <property name="Power Rating" value="0; 12500; 25000; 50000; 100000; 150000; 300000; 600000; 900000; 1200000; 1500000" />
       <property name="Text" value="(When you reach this level during combat, your opponent must pass for his or her next action this combat.) CONSTANT: The first time each combat one of your non-Styled attack cards is stopped, it says in play to be used a second time this combat. Your non-Styled attacks deal +3 life cards of damage." />
       <property name="Limit per Deck" value="1" />
     </card>
@@ -1707,7 +1707,7 @@
       <property name="Rarity" value="Dragon Rare" />
       <property name="Type" value="Personality" />
       <property name="PUR" value="6" />
-      <property name="Power Rating" value="2,000,000; 1,700,000; 1,400,000; 1,100,000; 800,000; 500,000; 200,000; 100,000; 50,000; 25,000; 0" />
+      <property name="Power Rating" value="0; 25000; 50000; 100000; 200000; 500000; 800000; 1100000; 1400000; 1700000; 2000000" />
       <property name="Text" value="(When you reach this level during combat, your opponent must pass for his or her next action this combat.) CONSTANT: Your non-Styled attacks cannot be stopped and deal +3 life cards of damage." />
       <property name="Limit per Deck" value="1" />
     </card>
@@ -1729,7 +1729,7 @@
       <property name="Rarity" value="Dragon Rare" />
       <property name="Type" value="Personality" />
       <property name="PUR" value="2" />
-      <property name="Power Rating" value="1,000,000; 500,000; 100,000; 25,000; 20,000; 15,000; 10,000; 5,000; 2,500; 1,250; 0" />
+      <property name="Power Rating" value="0; 1250; 2500; 5000; 10000; 15000; 20000; 25000; 100000; 500000; 1000000" />
       <property name="Text" value="[INSTANT] POWER: Use when entering combat. Search your Life Deck for an Ally with &quot;Cell Jr.&quot; in the title and play it. POWER: Destroy the top card of your opponent's Life Deck. Shuffle an Ally in play into its owner's Life Deck to raise or lower a player's anger 2 levels." />
       <property name="Limit per Deck" value="1" />
     </card>
@@ -1740,7 +1740,7 @@
       <property name="Rarity" value="Dragon Rare" />
       <property name="Type" value="Personality" />
       <property name="PUR" value="3" />
-      <property name="Power Rating" value="1,500,000; 1,000;000; 500,000; 250,000; 125,000; 95,000; 65,000; 35,000; 5,000; 1,000; 0" />
+      <property name="Power Rating" value="0; 1000; 5000; 35000; 65000; 95000; 125000; 250000; 500000; 1000000; 1500000" />
       <property name="Text" value="[INSTANT] POWER: Use when entering combat. Search your Life Deck, discard pile, or Banished Zone for an Ally with &quot;Cell Jr.&quot; in the title and play it. POWER: You may set your MP to its 0 power stage. Destroy the top 3 cards of your opponent's Life Deck. Shuffle an Ally in ply into its owner's Life Deck." />
       <property name="Limit per Deck" value="1" />
     </card>
@@ -1751,7 +1751,7 @@
       <property name="Rarity" value="Dragon Rare" />
       <property name="Type" value="Personality" />
       <property name="PUR" value="4" />
-      <property name="Power Rating" value="2,000,000; 1,400,000; 1,000,000; 500,000; 400,000; 300,000; 200,000; 100,000; 25,000; 10,000; 0" />
+      <property name="Power Rating" value="0; 10000; 25000; 100000; 200000; 300000; 400000; 500000; 1000000; 1400000; 2000000" />
       <property name="Text" value="[INSTANT] POWER: Use when entering combat .Search your Life Deck, discard pile, or Banished Zone for Saiyan Ally and play it. Physical attack. If you control 2 or more Allies, destroy the top 5 cards of your opponent's Life Deck. DAMAGE: AT +6 stages." />
       <property name="Limit per Deck" value="1" />
     </card>
@@ -1762,7 +1762,7 @@
       <property name="Rarity" value="Dragon Rare" />
       <property name="Type" value="Personality" />
       <property name="PUR" value="5" />
-      <property name="Power Rating" value="2,500,000; 2,000,000; 1,500,000; 1,000,000; 500,000; 400,000; 300,000; 200,000; 100,000; 50,000; 0" />
+      <property name="Power Rating" value="0; 50000; 100000; 200000; 300000; 400000; 500000; 1000000; 1500000; 2000000; 2500000" />
       <property name="Text" value="(This card's non-[INSTANT] power may only be used once per game.) [INSTANT] POWER: Use when entering combat. Search your Life Deck for a Styled card and place it into your hand. POWER: You may lower your MP 1 level to lower your opponent's MP 1 level. (Most Recent Printing)" />
       <property name="Limit per Deck" value="1" />
     </card>
@@ -1784,7 +1784,7 @@
       <property name="Rarity" value="Dragon Rare" />
       <property name="Type" value="Personality" />
       <property name="PUR" value="3" />
-      <property name="Power Rating" value="700,000; 500,000; 300,000; 100,000; 75,000; 50,000; 25,000; 10,000; 5,000; 2,500; 0 " />
+      <property name="Power Rating" value="0; 2500; 5000; 10000; 25000; 50000; 75000; 100000; 300000; 500000; 700000 " />
       <property name="Text" value="CONSTANT: Your attacks are considered Styled. Whenever an Ally you control is banished, raise your anger 1 level. POWER: Physical attack. You may banish an Ally. DAMAGE: AT +2 life cards." />
       <property name="Limit per Deck" value="1" />
     </card>
@@ -1795,7 +1795,7 @@
       <property name="Rarity" value="Dragon Rare" />
       <property name="Type" value="Personality" />
       <property name="PUR" value="4" />
-      <property name="Power Rating" value="1,100,000; 900,000; 700,000; 500,000; 300,000; 100,000; 50,000; 25,000; 12,500; 6,250; 0" />
+      <property name="Power Rating" value="0; 6250; 12500; 25000; 50000; 100000; 300000; 500000; 700000; 900000; 1100000" />
       <property name="Text" value="CONSTANT: Your attacks are considered Styled. Whenever your MP would advance a level, you may lower your MP 1 level instead. POWER: Discard a card from your hand to search your Life Deck for a Styled [attack] or [shield] card and place it into your hand." />
       <property name="Limit per Deck" value="1" />
     </card>
@@ -1806,7 +1806,7 @@
       <property name="Rarity" value="Dragon Rare" />
       <property name="Type" value="Personality" />
       <property name="PUR" value="5" />
-      <property name="Power Rating" value="1,700,000; 1,400,000; 1,100,000; 800,000; 500,000; 200,000; 100,000; 50,000; 25,000; 12,500; 0" />
+      <property name="Power Rating" value="0; 12500; 25000; 50000; 100000; 200000; 500000; 800000; 1100000; 1400000; 1700000" />
       <property name="Text" value="CONSTANT: Your attacks are considered Styled and deal +2 stages of damage. POWER: Physical attack. You may banish a Setup, Drill, or Ally. DAMAGE: 4 stages." />
       <property name="Limit per Deck" value="1" />
     </card>
@@ -1817,7 +1817,7 @@
       <property name="Rarity" value="Dragon Rare" />
       <property name="Type" value="Personality" />
       <property name="PUR" value="6" />
-      <property name="Power Rating" value="2,800,000; 2,000,000; 1,200,000; 900,000; 600,000; 300,000; 200,000; 100,000; 50,000; 25,000; 0" />
+      <property name="Power Rating" value="0; 25000; 50000; 100000; 200000; 300000; 600000; 900000; 1200000; 2000000; 2800000" />
       <property name="Text" value="CONSTANT: Your attacks are considered Styled. Your physical attacks can only be stopped by Physical Combat cards. Your energy attacks can only be stopped by Energy Combat cards. POWER: The next attack you perfom this combat has its power stage cost reduced to 0 and its damage cannot be prevented." />
       <property name="Limit per Deck" value="1" />
     </card>
@@ -1839,7 +1839,7 @@
       <property name="Rarity" value="Dragon Rare" />
       <property name="Type" value="Personality" />
       <property name="PUR" value="1" />
-      <property name="Power Rating" value="5; 10; 15; 20; 25; 30; 35; 40; 45; 50; 0" />
+      <property name="Power Rating" value="0; 50; 45; 40; 35; 30; 25; 20; 15; 10; 5" />
       <property name="Text" value="(Your Life Deck cannot include cards that perform energy attacks.) CONSTANT: Your attacks deal +100 stages of damage. Your attacks cannot have their damage modified by your effects. POWER: Physical attack. Your MP gains 5 stages. Search your Life Deck for &quot;Hercule Dynamite Kick&quot; and place it into your hand. DAMAGE: 1 stage." />
       <property name="Limit per Deck" value="1" />
     </card>
@@ -1850,7 +1850,7 @@
       <property name="Rarity" value="Dragon Rare" />
       <property name="Type" value="Personality" />
       <property name="PUR" value="2" />
-      <property name="Power Rating" value="5; 10; 15; 20; 25; 30; 35; 40; 45; 50; 0"></property>
+      <property name="Power Rating" value="0; 50; 45; 40; 35; 30; 25; 20; 15; 10; 5"></property>
       <property name="Text" value="CONSTANT: Your Named cards cannot have their damage modified by your effects. Your opponent's attacks deal -3 stages and -3 life cards of damage. You cannot use the effects of CONSTANT Drills. Physical attack. Search your Life Deck for &quot;Hercule's Dynamite Kick&quot; and place it into your hand. DAMAGE 2 stages." />
       <property name="Limit per Deck" value="1" />
     </card>
@@ -1861,7 +1861,7 @@
       <property name="Rarity" value="Dragon Rare" />
       <property name="Type" value="Personality" />
       <property name="PUR" value="3" />
-      <property name="Power Rating" value="5; 10; 15; 20; 25; 30; 35; 40; 45; 50; 0" />
+      <property name="Power Rating" value="0; 50; 45; 40; 35; 30; 25; 20; 15; 10; 5" />
       <property name="Text" value="(Your opponent cannot use effects that lower your MP 1 or more levels.) CONSTANT: Your anger cannot be lowered by critical damage effects. All attacks deal +1 stage of damage. Your damage modifiers are doubled. Your named cards cannot have their damage modified and gain &quot;HIT: Raise your anger 1 level.&quot;" />
       <property name="Limit per Deck" value="1" />
     </card>
@@ -1872,7 +1872,7 @@
       <property name="Rarity" value="Dragon Rare" />
       <property name="Type" value="Personality" />
       <property name="PUR" value="4" />
-      <property name="Power Rating" value="5; 10; 15; 20; 25; 30; 35; 40; 45; 50; 0" />
+      <property name="Power Rating" value="0; 50; 45; 40; 35; 30; 25; 20; 15; 10; 5" />
       <property name="Text" value="CONSTANT: Your attacks deal +2 life cards of damage. Whenver you use a Named card, destroy the top card of your opponent's Life Deck and lower each player's anger 1 level." />
       <property name="Limit per Deck" value="1" />
     </card>
@@ -1894,7 +1894,7 @@
       <property name="Rarity" value="Dragon Rare" />
       <property name="Type" value="Personality" />
       <property name="PUR" value="2" />
-      <property name="Power Rating" value="225,000; 175,000; 125,000; 75,000; 25,000; 20,000; 15,000; 10,000; 5,000; 2,500; 0" />
+      <property name="Power Rating" value="0; 2500; 5000; 10000; 15000; 20000; 25000; 75000; 125000; 175000; 225000" />
       <property name="Text" value="CONSTANT: Whenever you raise your anger during combat, that amount is doubled." />
       <property name="Limit per Deck" value="1" />
     </card>
@@ -1905,7 +1905,7 @@
       <property name="Rarity" value="Dragon Rare" />
       <property name="Type" value="Personality" />
       <property name="PUR" value="3" />
-      <property name="Power Rating" value="850,000; 700,000; 550,000; 250,000; 100,000; 50,000; 25,000; 12,500; 6,250; 0" />
+      <property name="Power Rating" value="850000; 700000; 550000; 250000; 100000; 50000; 25000; 12500; 6250; 0" />
       <property name="Text" value="CONSTANT: Whenever you play a Named card, you may use a critical damage effect. POWER: Stop a physical attack. You may rejuvenate a card with &quot;Sword&quot; in the title from your Banished zone to raise your anger 1 level." />
       <property name="Limit per Deck" value="1" />
     </card>
@@ -1916,7 +1916,7 @@
       <property name="Rarity" value="Dragon Rare" />
       <property name="Type" value="Personality" />
       <property name="PUR" value="4" />
-      <property name="Power Rating" value="1,250,000; 1,000;000; 750,000; 500,000; 250,000; 200,000; 150,000; 100,000; 50,000; 25,000; 0" />
+      <property name="Power Rating" value="0; 25000; 50000; 100000; 150000; 200000; 250000; 500000; 750000; 1000000; 1250000" />
       <property name="Text" value="CONSTANT: Your attacks deal +2 stages of damage. Whenever your anger would be lowered by any amount, its lowered by 1 instead. POWER: Physical attack. Skip your next action this combat. DAMAGE: 6 stages." />
       <property name="Limit per Deck" value="1" />
     </card>
@@ -1927,7 +1927,7 @@
       <property name="Rarity" value="Dragon Rare" />
       <property name="Type" value="Personality" />
       <property name="PUR" value="5" />
-      <property name="Power Rating" value="1,850,000; 1,550,000; 1,250,000; 950,000; 650,000; 350,000; 250,000; 150,000; 50,000; 25,000; 0" />
+      <property name="Power Rating" value="0; 25000; 50000; 150000; 250000; 350000; 650000; 950000; 1250000; 1550000; 1850000" />
       <property name="Text" value="CONSTANT: Your attacks with &quot;Sword&quot; in the title cannot be stopped and gain &quot;Raise your anger 1 level.&quot; POWER: Skip your next 2 actions this combat. Raise your anger 2 levels." />
       <property name="Limit per Deck" value="1" />
     </card>
